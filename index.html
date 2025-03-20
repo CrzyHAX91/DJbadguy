@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Previous head and style sections remain the same -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ THEBADGUY (TBG) - Official Website</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Previous styles remain the same */
+        .font-orbitron { font-family: 'Orbitron', sans-serif; }
+        .font-roboto { font-family: 'Roboto', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .bg-gradient { background: linear-gradient(135deg, #1a1a1a, #2d3436); }
+        .hover-glow:hover {
+            box-shadow: 0 0 15px rgba(78, 205, 196, 0.5);
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                        url('https://images.unsplash.com/photo-1571266028243-3716f02d2d2e?w=1600') center/cover;
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-roboto">
+    <!-- Previous sections remain the same until Music Section -->
+
+    <!-- Music Section -->
+    <section id="music" class="py-20 bg-black">
+        <div class="container mx-auto px-4">
+            <h2 class="font-orbitron text-4xl font-bold mb-12 gradient-text text-center">Listen to My Tracks</h2>
+            
+            <!-- SoundCloud Integration -->
+            <div class="mb-16 bg-gradient rounded-xl p-6 hover-glow">
+                <h3 class="font-orbitron text-2xl font-bold mb-6 text-center text-[#4ECDC4]">Latest on SoundCloud</h3>
+                <div class="relative overflow-hidden rounded-lg">
+                    <iframe width="100%" 
+                            height="450" 
+                            scrolling="no" 
+                            frameborder="no" 
+                            allow="autoplay" 
+                            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thebadguyhimself&color=%234ECDC4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+                    </iframe>
+                </div>
+                <div class="mt-4 text-center">
+                    <a href="https://soundcloud.com/thebadguyhimself" 
+                       target="_blank" 
+                       class="inline-block bg-[#4ECDC4] text-black font-bold py-2 px-6 rounded-full hover-glow">
+                        Follow on SoundCloud
+                    </a>
+                </div>
+            </div>
+
+            <!-- YouTube Integration -->
+            <div class="mb-16 bg-gradient rounded-xl p-6 hover-glow">
+                <h3 class="font-orbitron text-2xl font-bold mb-6 text-center text-[#4ECDC4]">Latest Videos</h3>
+                <div class="relative overflow-hidden rounded-lg">
+                    <iframe 
+                        class="w-full h-[450px]"
+                        src="https://www.youtube.com/@TheBadGuyHimself/videos" 
+                        title="DJ THEBADGUY YouTube Channel"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="mt-4 text-center">
+                    <a href="https://www.youtube.com/@TheBadGuyHimself" 
+                       target="_blank" 
+                       class="inline-block bg-[#4ECDC4] text-black font-bold py-2 px-6 rounded-full hover-glow">
+                        Subscribe on YouTube
+                    </a>
+                </div>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="text-center mb-16">
+                <h3 class="font-orbitron text-2xl font-bold mb-6 text-[#4ECDC4]">Follow & Subscribe</h3>
+                <div class="flex justify-center gap-6">
+                    <a href="https://soundcloud.com/thebadguyhimself" 
+                       target="_blank" 
+                       class="flex items-center gap-2 bg-gradient rounded-full px-6 py-3 hover-glow">
+                        <i class="fab fa-soundcloud text-2xl"></i>
+                        <span>SoundCloud</span>
+                    </a>
+                    <a href="https://www.youtube.com/@TheBadGuyHimself" 
+                       target="_blank" 
+                       class="flex items-center gap-2 bg-gradient rounded-full px-6 py-3 hover-glow">
+                        <i class="fab fa-youtube text-2xl"></i>
+                        <span>YouTube</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Featured Tracks -->
+            <h3 class="font-orbitron text-2xl font-bold mb-6 text-center text-[#4ECDC4]">Featured Tracks</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Track cards remain the same -->
+                <!-- Track 1 -->
+                <div class="bg-gradient rounded-xl p-6 hover-glow">
+                    <div class="aspect-square bg-gray-800 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-play text-4xl text-[#4ECDC4]"></i>
+                    </div>
+                    <h3 class="font-orbitron text-xl mb-2">Neon Dreams</h3>
+                    <p class="text-gray-400 mb-4">Latest Mix - 2024</p>
+                    <audio controls class="w-full">
+                        <source src="#" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 2 -->
+                <div class="bg-gradient rounded-xl p-6 hover-glow">
+                    <div class="aspect-square bg-gray-800 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-play text-4xl text-[#4ECDC4]"></i>
+                    </div>
+                    <h3 class="font-orbitron text-xl mb-2">Underground Vibes</h3>
+                    <p class="text-gray-400 mb-4">Club Mix - 2024</p>
+                    <audio controls class="w-full">
+                        <source src="#" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <!-- Track 3 -->
+                <div class="bg-gradient rounded-xl p-6 hover-glow">
+                    <div class="aspect-square bg-gray-800 rounded-lg mb-4 flex items-center justify-center">
+                        <i class="fas fa-play text-4xl text-[#4ECDC4]"></i>
+                    </div>
+                    <h3 class="font-orbitron text-xl mb-2">Summer Beats</h3>
+                    <p class="text-gray-400 mb-4">Festival Mix - 2023</p>
+                    <audio controls class="w-full">
+                        <source src="#" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Previous sections remain the same -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient">
+        <div class="container mx-auto px-4">
+            <h2 class="font-orbitron text-4xl font-bold mb-12 gradient-text text-center">Connect</h2>
+            <div class="max-w-2xl mx-auto text-center">
+                <p class="text-xl mb-8 text-gray-300">
+                    Follow TBG on social media and never miss a beat
+                </p>
+                <div class="flex justify-center space-x-8">
+                    <a href="https://soundcloud.com/thebadguyhimself" target="_blank" class="text-gray-400 hover:text-[#4ECDC4] transition-colors">
+                        <i class="fab fa-soundcloud text-4xl"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@TheBadGuyHimself" target="_blank" class="text-gray-400 hover:text-[#4ECDC4] transition-colors">
+                        <i class="fab fa-youtube text-4xl"></i>
+                    </a>
+                </div>
+                <p class="mt-8 text-xl text-[#4ECDC4]">
+                    Bookings: bookings@tbg.io
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black border-t border-gray-800 py-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <span class="font-orbitron text-xl gradient-text">DJ THEBADGUY</span>
+                <p class="mt-4 text-gray-600">&copy; 2024 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
